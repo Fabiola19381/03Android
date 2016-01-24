@@ -1,0 +1,259 @@
+body{
+    width: 100%;
+    margin: 0 auto; 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+#di1{
+    padding: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    border-bottom: 2px solid darkgray;
+}
+#subdi1{
+    display: inline-block;
+    padding-left: 10px;
+    height: 80%;
+    vertical-align: middle;
+}
+#subdi2{
+    display: inline-block;
+    padding-left: 650px;
+    height: 80%;
+    
+}
+#subdi3{
+    padding-top: 30px;
+    display: inline-block;
+    padding-right: 950px;;
+    height: 100%;
+}
+#menu{
+    display: inline;
+    font-size: 13px;
+    color: grey;
+    padding-left: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#menu:hover{
+	color:greenyellow;
+}
+#imagen1{
+    width: 150px;
+
+}
+#imagen3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 78px;
+    border-bottom: 1px solid darkgray;
+}
+#subdiv2{
+    text-align: center;
+}#texto1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+#texto2{
+    font-size: 15px; 
+    line-height: 1.5em; 
+    padding: 0px 430px;
+}
+#rectang1{
+    text-align: center;
+    width: 165px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: sub;
+}
+.rectang2{
+    padding-left: 160px;
+    overflow: hidden;
+}
+#sec2{
+    text-align: right; 
+}
+#menu2{
+    display: inline;
+    font-size: 13px;
+}
+.efectoZoom{
+    transition: width 0.3s, height 0.3s, transform 0.3s;
+}
+.efectoZoom:hover{
+    transform : scale(2);
+    -webkit-transform : scale(1.2);
+}
+#imagen4{
+    width: 65%;
+}
+#imagen7{
+    width: 150%;
+}
+#imagen8{
+    width: 450%;
+}
+#textoima{
+    font-size: 15px;
+    color: limegreen;
+    padding: 0px 20px 5px 20px;
+    text-align: center;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#textoima:hover{
+	color:green;;
+}
+#di5{
+    background: #455a64;
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+}
+#imagen10{
+    width: 100%;
+    height: 100%;
+}
+#texto3{
+    font-size: 40px;
+    padding: 0px 150px;
+    line-height: 1.5em;
+}
+#texto4{
+    font-size: 20px; 
+    line-height: 1.5em; 
+    padding: 0px 150px;
+    width: 800px;
+}
+#texto5{
+    font-size: 13px; 
+    padding: 0px 150px;
+    color: #64ffda;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#texto5:hover{
+	color:#6ab344;
+}
+#di7{
+    text-align: left;
+}
+#rectang{
+    width: 250px;
+    height: 550px;
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 0px;
+    vertical-align: middle;    
+}
+#imagen14{
+    width: 100%;
+}
+#titulo{
+    font-size:23px;
+    padding: 0px 10px 0px 20px;;
+    text-align: left;
+}
+.text{
+    font-size: 18px;
+    text-align: left;
+    color: dimgrey;
+}
+#text1{
+    padding: 0px 20px 160px 20px;
+}
+#text2{
+    padding: 0px 20px 120px 20px;
+}
+#text3{
+    padding: 0px 20px 5px 20px;
+}
+#text4{
+    padding: 0px 20px 60px 20px;
+}
+#texto3{
+    font-size: 40px;
+    padding: 0px 150px;
+    line-height: 1.5em;
+    text-align: left;
+}
+#difinal{
+    background: #F7F7F7;
+    margin: 0px
+}
+#texto6{
+    font-size: 13px; 
+    line-height: 1.5em; 
+    width: 1300px;
+    color: gray;
+    text-align: right;
+}
+#texto6:hover{
+	color:green;
+}
+#texto7{
+    font-size: 15px; 
+    line-height: 1.5em; 
+    padding: 0px 50px;
+    width: 800px;
+    color: gray;
+    text-align: left;
+}
+footer{
+    background: #EEEEEE;
+    vertical-align: middle;
+    padding: 30px 0px 30px 0px;
+    text-align: left;
+}
+#ultimo{
+    display: inline;
+    font-size: 13px;
+    color: grey;
+    padding-left: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#ultimo:hover{
+    color: green;
+}
+.goo{
+    display: inline;
+    color: grey;
+    padding-left: 20px;
+    font-size: 30px;
+}
+#combo{
+    font-size: 13px; 
+    line-height: 1.5em; 
+    width: 250px;
+    color: gray;
+    text-align: right;
+    margin-left: 450px;
+    border-color: #EFEFEF;
+}
+
+/*SMART PHONE*/
+@media only screen and (max-width: 480px){
+	body{
+		background-color: red;
+	}
+}
+/*TABLETS*/
+@media only screen and (min-width: 481px) and (max-width: 720px){
+	body{
+		background-color: yellow;
+	}
+}
+/*COMPUTADORAS*/
+@media only screen and (min-width: 721px) and (max-width: 1280px){
+	body{
+		background-color: black;
+	}
+}
